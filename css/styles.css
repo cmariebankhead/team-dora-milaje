@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* <!--START OF LEADERSHIP PAGE--> */
 #warriors {
     color: black;
     text-shadow: 1.5px 1.5px 1.5px rgb(249, 243, 243);
@@ -25,3 +26,4 @@
     color: white;
     text-shadow: 1.5px 1.5px 1.5px black;
 }
+/* <!-- END OF LEADERSHIP PAGE --> */
