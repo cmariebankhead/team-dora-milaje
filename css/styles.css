@@ -8,6 +8,7 @@
     color: black;
     text-shadow: 1.5px 1.5px 1.5px rgb(249, 243, 243);
     text-align: center;
+    font-size: 50px;
 }
 
 .red {
@@ -25,6 +26,7 @@
 #milaje {
     color: white;
     text-shadow: 1.5px 1.5px 1.5px black;
+    font-size: 50px;
 }
 .leader {
     background-image: url("/team-dora-milaje/images/the-woman-king-10.png");
@@ -33,5 +35,8 @@
     background-size: cover;
     height: 100px;
     border: 2px solid black;
+}
+#team {
+    font-size: 25px;
 }
 /* <!-- END OF LEADERSHIP PAGE --> */
