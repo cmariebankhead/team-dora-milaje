@@ -1,3 +1,209 @@
-*{
+* {
     margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*HEADER IMAGE*/
+header {
+    background: linear-gradient(rgba(0,130,170,.5),rgba(0,130,170,.5)), url(/images/dorafightingstance.gif);
+    background-position: center; 
+    background-size: cover;
+    height: 444px;
+}
+/*NAV BAR*/
+nav {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 11px;
+    background-color: transparent;
+
+
+
+}
+/*NAV BAR LINKS*/
+nav>a {
+    background-color: transparent;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+
+}
+/*NAV BAR IMAGE LOGO*/
+ #navimage {
+    width: 75px;
+    background: position 50%;
+}
+
+/*NAVBAR HOVER*/
+nav>a:hover {
+    
+    padding: 7px;
+    width: max-content;
+    color: darkred;
+    
+}
+/*CLASS THAT CHANGES H1 COLOR*/
+.headingcolor {
+    color: gold;
+    font-size: 47px;
+    font-weight: 300;
+    text-align: center;
+    display: block;
+    text-transform: uppercase;
+    text-shadow: 4px 4px 4px black;
+
+}
+/*ID TO CHANGE H3 COLOR AND POSITION*/
+#colorheadingred {
+
+    color: darkred;
+    text-align: center;
+    font-weight: 7px;
+    
+
+}
+h3{
+    color: darkred;
+    text-align: center;
+    font-weight: 7px;
+    
+}
+
+/*SECTION 1 AND 2  H3*/
+.section1>h3{
+    
+        color: darkred;
+        text-align: center;
+        font-weight: 7px;
+        margin-top: 3%;
+}    
+.section2>h3{
+    color: darkred;
+    text-align: center;
+    font-weight: 7px;
+    margin: 1% 2%;
+  
+}
+/*VIDEO*/
+#video {
+
+    padding: 15px, 15px;
+    border: auto;
+    border-style: dashed;
+    border-color: darkred;
+    border-width: 7px;
+    border-style: groove;
+    background-position: center;
+    width: 50%;
+    height:37%;
+    margin-top: 3%;
+}
+/*BACK TO TOP CLASS BUTTON*/
+.backtotop {
+    background-color:darkred;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.backtotop {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+  }
+  
+.backtotop:hover {
+    background-color: black;
+    color:red;
+}
+  
+/*FOOTER*/
+
+.footer {
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    color: gold;
+    background-position: center;
+
+}
+footer>h4{
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#footer{
+background-color: black;
+}
+/*PARAGRAPH THAT IS LOCATED BESIDE VIDEO*/
+
+#videoparagraph {
+    float: right ;
+    padding: 47px; 
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+/*TABLE*/
+
+.table{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-collapse: collapse;
+    width: 35%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+  }
+  
+  td, th {
+    border: 1px solid lightgray;
+    text-align: left;
+    padding: 8px;
+    width: 30%;
+  }
+  
+  tr:nth-child(even) {
+    background-color: lightgray;
+  }
+th{
+    background-color: black;
+    color: white;
+    border: transparent;
+}
+table>p{
+    text-align: center;
+    padding: auto;
+}
+/*SECTION 2 SERVICES PARAGRAPH*/
+.section2>p{
+    text-align: center;
+    padding: 3px;
+}
+/*SERVICES SPAN ID*/
+#services{
+   padding: 2px 2px;
+    text-align: center;
+    
 }
