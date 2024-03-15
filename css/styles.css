@@ -261,11 +261,38 @@ table>p {
 
 /* <!-- END OF LEADERSHIP PAGE --> */
 /* <!--Start of Hour Page -->*/
+.space {
+  height: 700px;
+   background: linear-gradient(rgba(244, 160, 34, 0.5), rgba(170, 40, 0, 0.5)), url("../images/the-woman-king-07.png");
+   border: 4px solid black;
+}
 #hours {
   text-align: center;
   font-style: oblique;
-  font-size: 40px;
   text-shadow: 1px 1px 1px crimson;
+  padding: 75px;
 }
+#face {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+
+}
+#sun-sat {
+  border: 5px double black;
+  float: left;
+  width: 40%;
+}
+#feet {
+  margin-top: 400px;
+}
+#journey {
+  padding: 75px;
+  border: 5px;
+  float: left;
+  width: 60%;
+}
+
 
 /* <!--End of Hour Page -->*/
