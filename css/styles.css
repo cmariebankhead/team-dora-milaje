@@ -280,9 +280,10 @@ table>p {
 
 }
 #sun-sat {
-  border: 5px double black;
   float: left;
-  width: 40%;
+  width: 50%;
+  box-shadow: 2px 2px 2px black;
+
 }
 #feet {
   margin-top: 400px;
@@ -291,7 +292,7 @@ table>p {
   padding: 75px;
   border: 5px;
   float: left;
-  width: 60%;
+  width: 50%;
 }
 
 
