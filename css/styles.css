@@ -4,7 +4,7 @@
   padding: 0px;
   box-sizing: border-box;
 }
-
+/* EXTEND THE PX HEIGHT ON ALL PAGES */
 /*HEADER IMAGE*/
 header {
   background: linear-gradient(rgba(137, 139, 139, 0.5), rgba(0, 130, 170, .5)), url(/images/dorafightingstance.gif);
@@ -279,11 +279,12 @@ table>p {
   text-shadow: 1px 1px 1px black;
 
 }
+/* possible adjustment of margin. this is the table */
 #sun-sat {
   float: left;
-  width: 50%;
+  width: 45%;
   box-shadow: 2px 2px 2px black;
-
+ margin-left: 35px;
 }
 #feet {
   margin-top: 400px;
@@ -294,6 +295,9 @@ table>p {
   float: left;
   width: 50%;
 }
-
+/* Might retract background color */
+#bck {
+  background-color: rgb(252, 248, 243);
+}
 
 /* <!--End of Hour Page -->*/
