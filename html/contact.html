@@ -5,38 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
     <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="shortcut icon" href="../images/dmlogo.png" type="image/x-icon" />
   </head>
   <!-- this is the body -->
 
   <body>
-   
     <!-- start of header -->
-    <header>  <!-- start of nav    -->
+    <header class="contactheader">
+      <!-- start of nav    -->
       <nav>
-        <a href="../index.html"> <img id="navimage"
-           src="../images/dmlogo.png"
-           alt="logo"
-           text="Dora Milaje fighting stance"
-         /></a>
-         <a href="../index.html">Home</a>
-         <a href="../html/leadership.html">Leadership</a>
-         <a href="../html/hours.html">Hours</a>
-         <a href="../html/contact.html">Contact</a>
-       </nav>
+        <a href="index.html">
+          <img
+            id="navimage"
+            src="../images/dmlogo.png"
+            alt="logo"
+            text="Dora Milaje fighting stance"
+        /></a>
+        <a href="../index.html">Home</a>
+        <a href="../html/leadership.html">Meet the Warriors</a>
+        <a href="../index.html#whoweare">About</a>
+        <a href="../index.html#services">Services</a>
+        <a href="../html/hours.html">Hours</a>
+        <a href="./html/contact.html">Contact</a>
+      </nav>
       <!-- end of nav -->
 
-      <h1></h1>
+      
     </header>
     <!-- end of header -->
     <!-- start email section -->
     <section>
-      <div>
-        <form action="">
-          <input type="text" />
-          <input type="text" />
-          <input type="text" />
-          <textarea name="" id="" cols="30" rows="10"></textarea>
-          <button></button>
+      <h2 class="heading2contactus">Email</h2>
+      <div id="heading2paragraph">
+        Get in touch with us today!
+        Our dedicated team is here to assist you with any inquiries, feedback, or support you may need.
+        Contact us now for personalized assistance and prompt solutions.
+       
+      </div>
+      <div class="form">
+        <form>
+          <label for="fname">First name:</label>
+          <input type="text" id="fname" name="fname" placeholder="First Name" />
+          <label for="lname">Last name:</label>
+          <input type="text" id="lname" name="lname" placeholder="Last name" />
+          <label for="organization">Organization:</label>
+          <input
+            type="text"
+            id="organization"
+            name="organization"
+            placeholder="Organization"
+          />
+          <label for="message">Message:</label>
+          <textarea type="text" id="message" name="message"></textarea>
+          <input type="submit" value="Submit" />
         </form>
       </div>
     </section>
@@ -44,7 +65,9 @@
 
     <!-- start of footer -->
 
-    <footer></footer>
+    <footer>
+      <h3>Created by Team Dora Milaje 2024</h3>
+    </footer>
     <!-- end of footer   -->
   </body>
 </html>
