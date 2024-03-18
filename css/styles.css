@@ -4,7 +4,7 @@
   padding: 0px;
   box-sizing: border-box;
 }
-
+/* EXTEND THE PX HEIGHT ON ALL PAGES */
 /*HEADER IMAGE*/
 header {
 
@@ -270,10 +270,52 @@ table>p {
   width: 25%;
 }
 
-/* <!-- END OF LEADERSHIP PAGE --> */
+/* <!-- END OF LEADERSHIP PAGE --> *
+/* <!--Start of Hour Page -->*/
+.space {
+  height: 700px;
+   background: linear-gradient(rgba(244, 160, 34, 0.5), rgba(170, 40, 0, 0.5)), url("../images/the-woman-king-07.png");
+   border: 4px solid black;
+}
+#hours {
+  text-align: center;
+  font-style: oblique;
+  text-shadow: 1px 1px 1px crimson;
+  padding: 75px;
+}
+#face {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+
+}
+/* possible adjustment of margin. this is the table */
+#sun-sat {
+  float: left;
+  width: 45%;
+  box-shadow: 2px 2px 2px black;
+ margin-left: 35px;
+}
+#feet {
+  margin-top: 400px;
+}
+#journey {
+  padding: 75px;
+  border: 5px;
+  float: left;
+  width: 50%;
+}
+/* Might retract background color */
+#bck {
+  background-color: rgb(252, 248, 243);
+}
+
+/* <!--End of Hour Page -->*/
+=======
 
 
-/*Contact form header and paragraph*/
+/* <!--Contact form header and paragraph -->*/
 .contactheader{
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/doramilaje.png);
   background-position: center;
@@ -291,8 +333,8 @@ padding: 7px;
   padding: 17px;
 
 }
-/*end of form header and paragraph*/
-/* Contact page form styles */
+/* <!-- end of form header and paragraph -->*/
+/* <!-- Contact page form styles --> */
 .form{
   
   border-radius: 3%;
@@ -334,4 +376,4 @@ textarea{
   font-family: Georgia;
 }
 
-/* end of contact form styles */
+/* <!-- end of contact form styles -->*/
