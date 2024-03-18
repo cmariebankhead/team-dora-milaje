@@ -6,7 +6,7 @@
 }
 /* EXTEND THE PX HEIGHT ON ALL PAGES */
 /*HEADER IMAGE*/
-header {
+.indexheader {
 
   background: linear-gradient(rgba(0, 3, 3, 0.5), rgba(0, 3, 3, 0.5)), url(/images/dorafightingstance.gif);
   background-position: center;
@@ -312,12 +312,11 @@ table>p {
 }
 
 /* <!--End of Hour Page -->*/
-=======
 
 
 /* <!--Contact form header and paragraph -->*/
 .contactheader{
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/doramilajepic.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/doramilaje.png);
   background-position: center;
   background-size: cover;
   height: 700px;
