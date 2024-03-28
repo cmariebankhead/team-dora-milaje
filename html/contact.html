@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
   </head>
   <!-- this is the body -->
 
@@ -18,19 +18,24 @@
     </nav>
     <!-- end of nav -->
     <!-- start of header -->
-    <header>
-      <h1></h1>
+    <header id="header-contact">
+      <h1 id="h1-contact">Dora milaje </h1>
+      
     </header>
     <!-- end of header -->
     <!-- start email section -->
-    <section>
-      <div>
-        <form action="">
-          <input type="text" />
-          <input type="text" />
-          <input type="text" />
-          <textarea name="" id="" cols="30" rows="10"></textarea>
-          <button></button>
+    <section><p>Contact us here</p>
+      <div id="div-contact"> 
+        <form action="action-page.php" id="form-con">
+          <label for="fname">First name:</label><br>
+          <input type="text" id="fname"/><br>
+          <label type="lname">Last name:</label><br>
+          <input type="lname" id="lname" /><br>
+          <label type="email">email</label><br>
+          <input type="text" id="email" /><br>
+          <label for="message">message</label><br>
+          <textarea name="message" id="textarea" cols="30" rows="10"></textarea><br>
+          <input type="submit" value="submit" id="sub-contact">
         </form>
       </div>
     </section>

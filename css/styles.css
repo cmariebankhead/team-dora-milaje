@@ -1,3 +1,46 @@
-*{
-    margin: 0px;
+
+#header-contact {
+  background-image: url('/images/photo1.png');
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  color: aliceblue;
+}
+#form-con {
+    text-align: center;
+    width: 400px;
+    margin: auto;
+
+}
+#div-contact {
+    border: 10px color(srgb red green blue);
+        border-style: solid solid solid solid;
+}
+#fname {
+border: 2px solid black;
+border-radius: 4px;
+width: 100%;
+
+}
+#lname {
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 100%;
+}
+#email {
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 100%;
+}
+#textarea {
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 100%;
+}
+#sub-contact:hover{
+    color: purple;
+    input {
+        width: 100%;
+    }
+    }
 }
